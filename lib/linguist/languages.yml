@@ -9274,4 +9274,9 @@ xBase:
   - ".prw"
   tm_scope: source.harbour
   ace_mode: text
-  language_id: 421
+  language_id: 421ENGCODE:
+  type: programming
+  extensions:
+    - ".eng"
+    - ".engb"
+  color: "#00ff88"
