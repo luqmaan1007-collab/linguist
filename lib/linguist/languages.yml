@@ -9275,3 +9275,10 @@ xBase:
   tm_scope: source.harbour
   ace_mode: text
   language_id: 421
+NOVA:
+  type: programming
+  color: "#FF5A5F"
+  extensions:
+    - .nova
+  tm_scope: source.nova
+  ace_mode: text
