@@ -9284,3 +9284,10 @@ ENGCODE:
   ace_mode: text
   interpreters:
     - engcode
+NOVA:
+  type: programming
+  color: "#FF5A5F"
+  extensions:
+    - .nova
+  tm_scope: source.nova
+  ace_mode: text
