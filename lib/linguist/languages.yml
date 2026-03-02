@@ -9291,3 +9291,26 @@ xBase:
   tm_scope: source.harbour
   ace_mode: text
   language_id: 421
+Corex:
+  type: programming
+  extensions:
+    - .corex
+  tm_scope: source.corex
+  ace_mode: c_cpp
+  color: "#FF6600"
+  aliases:
+    - corex
+  interpreters:
+    - corex
+
+Nexar:
+  type: programming
+  extensions:
+    - .nexar
+  tm_scope: source.nexar
+  ace_mode: dart
+  color: "#00B0FF"
+  aliases:
+    - nexar
+  interpreters:
+    - nexar
