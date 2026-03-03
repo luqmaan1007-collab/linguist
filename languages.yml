@@ -1,0 +1,42 @@
+
+corex:
+  type: programming
+  extensions:
+    - ".corex"
+  tm_scope: source.corex
+  ace_mode: text
+
+nexar:
+  type: programming
+  extensions:
+    - ".nexar"
+  tm_scope: source.nexar
+  ace_mode: text
+
+corex:
+  type: programming
+  extensions:
+    - ".corex"
+  tm_scope: source.corex
+  ace_mode: text
+
+nexar:
+  type: programming
+  extensions:
+    - ".nexar"
+  tm_scope: source.nexar
+  ace_mode: text
+
+corex:
+  type: programming
+  extensions:
+    - ".corex"
+  tm_scope: source.corex
+  ace_mode: text
+
+nexar:
+  type: programming
+  extensions:
+    - ".nexar"
+  tm_scope: source.nexar
+  ace_mode: text
