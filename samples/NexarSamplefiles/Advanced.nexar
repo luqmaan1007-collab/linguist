@@ -1,0 +1,19 @@
+// Advanced Nexar Sample
+
+module math
+
+function multiply(a: Float, b: Float) -> Float {
+    return a * b
+}
+
+function main() -> Int {
+    const x: Float = 3.5
+    const y: Float = 4.2
+
+    loop i in 0..5 {
+        print("Loop: " + i)
+    }
+
+    print("Product: " + multiply(x, y))
+    return 0
+}
