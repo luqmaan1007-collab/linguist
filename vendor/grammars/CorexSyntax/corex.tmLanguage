@@ -1,0 +1,83 @@
+{
+  name = "Corex";
+  scopeName = "source.corex";
+  fileTypes = ( corex );
+
+  patterns = (
+    { include = "#comments"; },
+    { include = "#keywords"; },
+    { include = "#types"; },
+    { include = "#strings"; },
+    { include = "#numbers"; },
+    { include = "#functions"; },
+    { include = "#operators"; }
+  );
+
+  repository = {
+
+    comments = {
+      patterns = (
+        {
+          name = "comment.line.double-slash.corex";
+          match = "//.*$";
+        }
+      );
+    };
+
+    keywords = {
+      patterns = (
+        {
+          name = "keyword.control.corex";
+          match = "\\b(fn|let|if|else|for|while|return|import)\\b";
+        }
+      );
+    };
+
+    types = {
+      patterns = (
+        {
+          name = "storage.type.corex";
+          match = "\\b(Int|Float|String|Bool|Void)\\b";
+        }
+      );
+    };
+
+    numbers = {
+      patterns = (
+        {
+          name = "constant.numeric.corex";
+          match = "\\b\\d+(\\.\\d+)?\\b";
+        }
+      );
+    };
+
+    strings = {
+      patterns = (
+        {
+          name = "string.quoted.double.corex";
+          begin = "\"";
+          end = "\"";
+        }
+      );
+    };
+
+    functions = {
+      patterns = (
+        {
+          name = "entity.name.function.corex";
+          match = "\\b[A-Za-z_][A-Za-z0-9_]*(?=\\()";
+        }
+      );
+    };
+
+    operators = {
+      patterns = (
+        {
+          name = "keyword.operator.corex";
+          match = "[+\\-*/%=<>!&|]+";
+        }
+      );
+    };
+
+  };
+}
